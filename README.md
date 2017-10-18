@@ -1,8 +1,8 @@
 # awsIAM
 
-##AWS Proof of Concepts 
+## AWS Proof of Concepts 
 
-###1. IAM settings are region specific or NOT?
+### 1. IAM settings are region specific or NOT?
 
 No, IAM settings are not region specific as you could see in the console below 
 
@@ -17,7 +17,7 @@ No, IAM settings are not region specific as you could see in the console below
 
 
 
-###2. By default users have no permissions when first added
+### 2. By default users have no permissions when first added
 
 ![image](https://user-images.githubusercontent.com/23042611/31739209-d570b612-b412-11e7-892e-3109bc5b3632.png)
 
@@ -56,7 +56,9 @@ Note*: If any user is created with required password reset then the user gets a 
  
  
 
-3. Active Directory Federation (AD) Can authenticate to AWS with AD using SAML
+### 3. Active Directory Federation (AD) Can authenticate to AWS with AD using SAML
+
+![image](https://user-images.githubusercontent.com/23042611/31743093-73f283c2-b41f-11e7-8ad2-aa581e8475a4.png)
 
  
 
