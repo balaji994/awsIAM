@@ -1,11 +1,13 @@
 # awsIAM
 
-AWS Proof of Concepts Assignment 
+##AWS Proof of Concepts 
 
-1. IAM settings are region specific or NOT?
+###1. IAM settings are region specific or NOT?
 
 No, IAM settings are not region specific as you could see in the console below 
+
 ![image](https://user-images.githubusercontent.com/23042611/31738973-e66f69c8-b411-11e7-9ca8-5e6221cac675.png)
+
 
 ![image](https://user-images.githubusercontent.com/23042611/31739000-070fc9f2-b412-11e7-973c-79d7c6559100.png)
 
@@ -15,7 +17,10 @@ No, IAM settings are not region specific as you could see in the console below
 
 
 
-2. By default users have no permissions when first added
+###2. By default users have no permissions when first added
+
+![image](https://user-images.githubusercontent.com/23042611/31739209-d570b612-b412-11e7-892e-3109bc5b3632.png)
+
 
 
 
@@ -25,21 +30,29 @@ Creating a user
 
 Reference: http://docs.aws.amazon.com/IAM/latest/UserGuide/access_permissions.html
  
+ 
+![image](https://user-images.githubusercontent.com/23042611/31739255-f46103ec-b412-11e7-8636-bb7db604e39a.png)
 
 By default there are no permissions for an user created but we can create permission through a assigning user to a group or by copying permissions from other users. You could see the options below 
 
 
 
 
-
-
+![image](https://user-images.githubusercontent.com/23042611/31742956-0775b58e-b41f-11e7-8a67-ab6463a9db7e.png)
 
 
  
+![image](https://user-images.githubusercontent.com/23042611/31742977-14f13f30-b41f-11e7-9ed2-1a95de9238d7.png)
+
  
 
 
 Note*: If any user is created with required password reset then the user gets a permission called IAMUserChangePassword the proof is below.
+
+![image](https://user-images.githubusercontent.com/23042611/31743000-27708f1c-b41f-11e7-827f-ea225b834744.png)
+
+![image](https://user-images.githubusercontent.com/23042611/31743012-332c6bc8-b41f-11e7-939d-c3e6adcf1d6f.png)
+
  
  
 
