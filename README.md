@@ -5,12 +5,9 @@ AWS Proof of Concepts Assignment
 1. IAM settings are region specific or NOT?
 
 No, IAM settings are not region specific as you could see in the console below 
+![image](https://user-images.githubusercontent.com/23042611/31738973-e66f69c8-b411-11e7-9ca8-5e6221cac675.png)
 
- 
-
-
-
- 
+![image](https://user-images.githubusercontent.com/23042611/31739000-070fc9f2-b412-11e7-973c-79d7c6559100.png)
 
 
 
@@ -19,6 +16,7 @@ No, IAM settings are not region specific as you could see in the console below
 
 
 2. By default users have no permissions when first added
+
 
 
  
